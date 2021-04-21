@@ -27,4 +27,33 @@ foreach($cliente as valor){
 }
 
 
+//------------EJERCICIO FOREACH------------
+$productos = [
+  [
+    'nombre' => 'Tablet',
+    'precio' => 200,
+    'disponible' => true
+  ],
+  [
+    'nombre' => 'Television',
+    'precio' => 300,
+    'disponible' => true
+  ],
+  [
+    'nombre' => 'Monitor',
+    'precio' => 400,
+    'disponible' => false
+  ]
+];
+
+foreach($productos as producto){
+  <li>
+    <p> Producto: <?php echo "producto['']"?></p>
+  </li>
+
+  echo "<pre>";
+  var_dump($producto);
+  echo "</pre>";
+}
+
 include 'includes/footer.php';
