@@ -1,7 +1,6 @@
 /*
 @author: janethcj
 @description: -Arreglos indexados
-              -Arreglos
 */
 
 <?php include 'includes/header.php';
@@ -28,8 +27,9 @@ array_unshift($carrito, 'Smartwatch');
 
 
 //Forma 2
-$carrito2 = array('Cliente 1', 'Cliente 2', 'Cliente 3');
-var_dump($carrito2);
-
+$clientes = array('Cliente 1', 'Cliente 2', 'Cliente 3');
+echo "<pre>";
+var_dump($clientes);
+echo "</pre>";
 
 include 'includes/footer.php';
